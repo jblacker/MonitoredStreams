@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  For more info on this file format visit http://docs.nuget.org/docs/reference/nuspec-reference.
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">  
+  <metadata>
+    <id>Monitored-Streams</id>
+    <version>$version$</version>
+    <authors>Jordan Blacker</authors>
+    <owners>Jordan Blacker</owners>
+    <title>$title$</title>
+    <description>Stream wrapper to monitor changes to an underlying stream via an event interface</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jblacker/MonitoredStreams</projectUrl>
+    <licenseUrl>https://github.com/jblacker/MonitoredStreams/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2017</copyright>
+    <tags>stream streams event events monitor monitored observed wrapper wrap</tags>
+  </metadata>
+</package>
