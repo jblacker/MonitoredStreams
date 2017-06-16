@@ -14,7 +14,7 @@ namespace MonitoredStreams
     /// Wraps a stream to provide reporting via event emitting whenever data is written/read from the underlying stream
     /// </summary>
     /// <seealso cref="System.IO.Stream" />
-    public class MonitoredStream : Stream
+    public class MonitoredStream : Stream, IMonitoredStream
     {
         private readonly Stream internalStream;
         private bool disposed;
